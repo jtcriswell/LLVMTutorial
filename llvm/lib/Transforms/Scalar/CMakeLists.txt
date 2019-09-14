@@ -1,4 +1,5 @@
 add_llvm_library(LLVMScalarOpts
+  SecDev.cpp
   ADCE.cpp
   AlignmentFromAssumptions.cpp
   BDCE.cpp
